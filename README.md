@@ -42,13 +42,13 @@ Findings:
 1. Run each line separately in a respective terminal.
 2. After each test run this:
    After each test run this:
-   `sql
+   ```sql
     drop table users;
     CREATE TABLE users (id SERIAL PRIMARY KEY,name VARCHAR(50),email VARCHAR(50));
     INSERT INTO users (name, email) VALUES ('User1', 'user1@example.com');
     INSERT INTO users (name, email) VALUES ('User2', 'user2@example.com');
     INSERT INTO users (name, email) VALUES ('User3', 'user3@example.com');
-    `
+    ```
 
 ### Test 1: Dirty read
 
