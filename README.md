@@ -49,6 +49,7 @@ Findings:
     INSERT INTO users (name, email) VALUES ('User2', 'user2@example.com');
     INSERT INTO users (name, email) VALUES ('User3', 'user3@example.com');
     ```
+3. Tests 2\. 3\. and 4.\ imply that one will check them with all isolation levels (comment/uncomment).
 
 ### Test 1: Dirty read
 
