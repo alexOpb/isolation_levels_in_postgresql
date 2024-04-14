@@ -197,9 +197,9 @@ update users set name = 'User2**' where id = 2;
 select * from users;
 commit;
 -- 3. ACTUAL RESULT: T1 block a specific row, not the whole table. T2 can immediately change another row, not waiting for T1 to commit.
-4. T1
+-- 4. T1
 commit;
-5. T2
+-- 5. T2
 commit;
 ```
 
